@@ -30,3 +30,4 @@
 /messages ||| InternalServerError ||| Tue Jun 07 2022 21:27:27 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| Cannot convert undefined or null to object
 /messages ||| InternalServerError ||| Tue Jun 07 2022 21:28:36 GMT+0500 (Uzbekistan Standard Time) ||| 500 ||| Cannot convert undefined or null to object
 /messages ||| InternalServerError ||| Wed Oct 12 2022 06:29:28 GMT-0700 (Pacific Daylight Time) ||| 500 ||| Unexpected end of JSON input
+/register ||| InternalServerError ||| Wed Oct 12 2022 07:07:25 GMT-0700 (Pacific Daylight Time) ||| 500 ||| Unexpected end of JSON input

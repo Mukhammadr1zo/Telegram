@@ -1,3 +1,12 @@
 [
-    
+    {
+        "username": "Muhammadrizo",
+        "password": "1400545eb0c22f1b1497c6ccbb41e462bd50a999074ccc4a1754fb807c372e82",
+        "email": "baxtiyorovmuhammadrizo@gmail.com",
+        "userId": 1,
+        "avatar": {
+            "viewLink": "http://localhost:3001/view/1665583805717profil.jpg",
+            "downloadLink": "http://localhost:3001/download/1665583805717profil.jpg"
+        }
+    }
 ]
