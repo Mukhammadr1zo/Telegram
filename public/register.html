@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/material-design-iconic-font.css">
+    <link rel="stylesheet" href="./css/material-design-iconic-font.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <h1 class="title">Sign up</h1>
+        <form action="#" class="site-form">
+          <label>
+            <span class="zmdi zmdi-account"></span>
+            <input type="text" id="usernameInput" placeholder="Your name" required>
+          </label>
+          <label>
+            <span class="zmdi zmdi-email"></span>
+            <input type="email" id="emailInput" placeholder="Your email" required>
+          </label>
+          <label>
+            <span class="zmdi zmdi-lock"></span>
+            <input type="password" id="passwordInput" placeholder="Password" required>
+            <button class="zmdi zmdi-eye" type="button" id="showButton"></button>
+          </label>
+          <label class="custom-upload">
+            <span class="zmdi zmdi-upload"></span>
+            <span class="file-name">click upload a avatar picture</span>
+            <input type="file" id="uploadInput" accept="image/*">
+          </label>
+          <input type="submit" value="Register" id="submitButton">
+          <p class="error-msg"></p>
+        </form>
+        <a href="/login" class="sign-link">I am already member</a>
+        <img src="img/signup-image.jpg" alt="signup-image" class="signup-image">
+      </div>
+    </div>
+    <script src="./js/registration.js"></script>
+  </body>
+</html>
